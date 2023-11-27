@@ -41,7 +41,7 @@
 		// showLog: false
 	});
 	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/TCatCloud/IPTV/Files/IPTV.m3u";
-	let playUrl = new URL(location.href).searchParams.get("playUrl") || "http://live.adultiptv.net/russian.m3u8";
+	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
 	if (playUrl.length > 0) {
