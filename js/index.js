@@ -40,7 +40,7 @@
 		autoPlay: true,
 		// showLog: false
 	});
-	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/TCatCloud/IPTV/Files/IPTV.m3u";
+	let url = new URL(location.href).searchParams.get("url") || "https://raw.githubusercontent.com/sdlkhfksl/IPTV-txt/Files/tv2.m3u";
 	let playUrl = new URL(location.href).searchParams.get("playUrl") || "";
 	url = url.trim();
 	playUrl = playUrl.trim();
